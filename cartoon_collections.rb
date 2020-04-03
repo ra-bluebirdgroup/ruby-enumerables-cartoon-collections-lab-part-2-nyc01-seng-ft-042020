@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
    valid_calls.detect { |e|
      planeteer_calls.count do |i|
        if i === e
-         puts e.to_s
+         puts i.to_s
       end
     end
     }
