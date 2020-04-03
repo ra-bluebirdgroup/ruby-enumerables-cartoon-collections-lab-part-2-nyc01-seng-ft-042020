@@ -18,6 +18,7 @@ def long_planeteer_calls(planeteer_calls)
       return true
     else
       return false
+    end 
   }
 end
 
@@ -28,6 +29,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.any? { |e|
       valid_calls.each do |i|
         if e == i
-          return i 
+          return i
    }
 end
