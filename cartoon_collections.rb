@@ -31,8 +31,9 @@ def find_valid_calls(planeteer_calls)
     is_valid = valid_calls[count]
     if planeteer_calls.any? { |e| e == is_valid }
       return e
+      count += 1
     else
       return nil
     end
-    
+
   end
