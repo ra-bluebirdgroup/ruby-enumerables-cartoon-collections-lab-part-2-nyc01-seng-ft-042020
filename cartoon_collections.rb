@@ -22,10 +22,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
     count = 0
 
-    while !planeteer_calls.find { |e| e == valid_calls[count] } do
-      planeteer_calls.find { |e| e == valid_calls[count] }
+    until planeteer_calls.find { |e| e == valid_calls[count] } do
       count ++
-    end
-
-
     end
