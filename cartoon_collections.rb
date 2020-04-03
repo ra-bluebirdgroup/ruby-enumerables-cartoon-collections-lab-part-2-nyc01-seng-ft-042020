@@ -29,4 +29,3 @@ def find_valid_calls(planeteer_calls)
 new_call
 end
 
-end
