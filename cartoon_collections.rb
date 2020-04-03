@@ -31,9 +31,8 @@ if planeteer_calls.any? { |e| valid_calls.each do |call|
       return call
     else
       return nil
+    end
+  end 
     }
-else
-  return nil
-end
 
 end
