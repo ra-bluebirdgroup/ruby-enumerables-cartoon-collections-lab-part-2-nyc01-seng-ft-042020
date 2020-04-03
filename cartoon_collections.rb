@@ -23,7 +23,7 @@ def find_valid_calls(planeteer_calls)
   new_call = nil
     valid_calls.each do |call|
         if (planeteer_calls.include?(call))
-        new_call + call
+        new_call = call
         end
     end
 new_call
